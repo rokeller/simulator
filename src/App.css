@@ -1,0 +1,106 @@
+.app {}
+
+.app-header {
+    height: 56px;
+    padding: 0 12px;
+    background-color: #282c34;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.content-container {
+    max-height: calc(100vh - 56px);
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+input,
+textarea {
+    width: 10ex;
+    padding: 4px;
+    margin: 2px 0;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    color: black;
+}
+
+a:hover,
+a:visited {
+    color: #1f4651;
+}
+
+button {
+    background-color: #408fa5;
+    color: white;
+    border: 1px solid #408fa5;
+    border-radius: 6px;
+    padding: 8px;
+    margin: 2px 0;
+}
+
+button+button {
+    margin-left: 2px;
+}
+
+@media all and (prefers-color-scheme: dark) {
+    body {
+        background-color: #14161a;
+        color: white;
+    }
+
+    a:hover,
+    a:visited {
+        color: #61dafb
+    }
+
+    input,
+    textarea {
+        background-color: #282c34;
+        border: 1px solid white;
+        border-radius: 3px;
+        color: white;
+    }
+}
+
+.topics,
+.options,
+.output {
+    padding: 0 12px;
+    max-height: calc(100vh - 56px);
+    overflow: auto;
+}
+
+.text {
+    min-width: 300px;
+    max-width: 600px;
+}
+
+.output pre {
+    padding: 0 2ex;
+}
+
+p {
+    text-align: justify;
+}
+
+.flex-h,
+.flex-v {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-h {
+    flex-direction: row;
+}
+
+.flex-v {
+    flex-direction: column;
+}
+
+.active {
+    font-weight: bold;
+}
