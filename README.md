@@ -32,7 +32,7 @@ nuclei) and various other percentiles of decay. It currently does so for a few i
 
 - $^{14}C$ -- carbon-14 aka radiocarbon
 - $^{131}I$ -- iodine-131 aka radioiodine
-- $^{137}Cs$ -- ceasium-137 aka radiocaesium
+- $^{137}Cs$ -- caesium-137 aka radiocaesium
 - $^{220}Rn$ -- radon-220
 - $^{226}Ra$ -- radium-226
 - $^{238}U$ -- uranium-238
