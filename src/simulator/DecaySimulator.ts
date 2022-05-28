@@ -49,7 +49,7 @@ export class DecaySimulator extends Simulator<DecaySimulatorOptions> {
 
         if (this.percentileCounts[this.nextPercentileIndex] === eventCount) {
             const percentile = this.options.percentiles[this.nextPercentileIndex];
-            this.report(`${(percentile * 100).toPrecision(5)}% of all nuclei decayed.`);
+            this.report(`${(percentile * 100).toPrecision(5)}% of nuclei decayed.`);
             this.nextPercentileIndex++;
         }
     }
